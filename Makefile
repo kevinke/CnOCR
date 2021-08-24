@@ -35,7 +35,7 @@ predict:
 package:
 	python setup.py sdist bdist_wheel
 
-VERSION = 1.2.2
+VERSION = 1.2.3
 upload:
 	python -m twine upload  dist/cnocr-$(VERSION)* --verbose
 
