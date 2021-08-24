@@ -35,7 +35,7 @@ EMB_MODEL_TYPES = [
 SEQ_MODEL_TYPES = ['lstm', 'gru', 'fc']
 
 root_url = (
-    'https://static.einplus.cn/cnocr/%s'
+    'https://beiye-model.oss-cn-beijing.aliyuncs.com/models/cnstd/%s/'
     % MODEL_VERSION
 )
 # name: (epochs, url)

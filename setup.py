@@ -18,10 +18,10 @@ exec(
 )
 
 required = [
-    'numpy>=1.14.0,<1.20.0',
     'pillow>=5.3.0',
     'mxnet>=1.5.0,<1.7.0',
     'gluoncv>=0.3.0,<0.7.0',
+    'numpy',
 ]
 extras_require = {
     "dev": ["pip-tools", "pytest", "python-Levenshtein"],
